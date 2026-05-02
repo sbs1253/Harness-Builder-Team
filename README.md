@@ -5,6 +5,7 @@
 > "쇼핑몰 만들어줘" 한 마디로 → 전문가 에이전트 팀 자동 구성, MCP/Skills 추천, 보안 룰 주입, QA 검증까지 7단계 자동 완성
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/harness-builder)](https://www.npmjs.com/package/harness-builder)
 [![Harness Engineering](https://img.shields.io/badge/Harness-Engineering-blue)](./docs/GUIDELINES.md)
 
 ---
@@ -69,14 +70,32 @@ Phase 1 → Phase 2 → Phase 3 → Phase 4 → Phase 5 → Phase 6 → Phase 7
 ---
 
 ## 📦 설치 방법
-
-### 1. 이 레포를 프로젝트에 복사
-
+ 
+> Node.js 16 이상 필요. 그 외 별도 설치 없음.
+ 
+프로젝트 폴더에서 아래 한 줄만 실행하세요:
+ 
 ```bash
-# 신규 프로젝트에 빌더 팀 Skills 복사
+npx harness-builder
+```
+ 
+플랫폼을 선택하면 에이전트 파일이 자동으로 설치됩니다.
+ 
+```
+어떤 AI 툴을 사용하시나요?
+ 
+  1. Antigravity  (SKILL.md 포맷)
+  2. Claude Code  (CLAUDE.md + .claude/agents/)
+  3. Cursor       (.cursor/rules/*.mdc)
+  4. Windsurf     (.windsurf/rules/*.md)
+```
+ 
+### 수동 설치 (Git clone)
+ 
+```bash
+git clone https://github.com/sbs1253/harness-builder-team
 cp -r .agents/skills/00-* /your-project/.agents/skills/
 ```
-
 ### 2. AI IDE에서 활성화 확인
 
 `.agents/skills/00-*` 폴더가 인식되면 준비 완료.
