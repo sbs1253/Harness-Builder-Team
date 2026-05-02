@@ -70,17 +70,17 @@ Phase 1 → Phase 2 → Phase 3 → Phase 4 → Phase 5 → Phase 6 → Phase 7
 ---
 
 ## 📦 설치 방법
- 
+
 > Node.js 16 이상 필요. 그 외 별도 설치 없음.
- 
+
 프로젝트 폴더에서 아래 한 줄만 실행하세요:
- 
+
 ```bash
 npx harness-builder
 ```
- 
+
 플랫폼을 선택하면 에이전트 파일이 자동으로 설치됩니다.
- 
+
 ```
 어떤 AI 툴을 사용하시나요?
  
@@ -89,13 +89,14 @@ npx harness-builder
   3. Cursor       (.cursor/rules/*.mdc)
   4. Windsurf     (.windsurf/rules/*.md)
 ```
- 
+
 ### 수동 설치 (Git clone)
- 
+
 ```bash
 git clone https://github.com/sbs1253/harness-builder-team
 cp -r .agents/skills/00-* /your-project/.agents/skills/
 ```
+
 ### 2. AI IDE에서 활성화 확인
 
 `.agents/skills/00-*` 폴더가 인식되면 준비 완료.
@@ -160,6 +161,7 @@ harness-builder-team/
 | [GUIDELINES.md](./docs/GUIDELINES.md) | 📖 Phase별 상세 가이드 + 에러 복구 |
 | [EXAMPLES.md](./docs/EXAMPLES.md) | 🎯 투투앱, 쇼핑몰 등 실제 사용 예시 |
 | [CONTRIBUTING.md](./docs/CONTRIBUTING.md) | 🔧 에이전트 커스텀 방법, 기여 가이드 |
+| [TODO APP](https://github.com/sbs1253/Harness_TODO) | 투투앱 하네스 프로젝트 |
 
 ---
 
