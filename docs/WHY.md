@@ -181,22 +181,6 @@ AI Skills는 description 키워드로 활성화됩니다. "하면 안 되는 상
 
 ---
 
-## 실제 사용 결과 (투투앱 데모)
-
-프로젝트: 커플 챌린지 앱 (Vite + React + Tailwind)
-
-```
-사용자 입력: "투투앱 만들기"
-   ↓
-Phase 1: INTAKE_FORM 분석 → 커플 챌린지 앱 확인 (30초)
-Phase 2: PRD + ARCHITECTURE + ROADMAP 자동 생성 (1분)
-Phase 3: 2개 타겟 에이전트 생성 + 3개 MCP 추천 (2분)
-Phase 5: context7 + sequential-thinking 감지 → 에이전트 강화 (30초)
-Phase 6: 보안 룰 주입 (30초)
-Phase 7: 9/9 QA 통과 → ONBOARDING.md 생성 (30초)
-총 소요 시간: 약 5분
-```
-
 ---
 
 ## 파일 구조
