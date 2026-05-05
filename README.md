@@ -3,6 +3,9 @@
 > **AI가 AI 프로젝트 환경을 스스로 설정해주는 메타-에이전트 시스템**
 >
 > "쇼핑몰 만들어줘" 한 마디로 → 전문가 에이전트 팀 자동 구성, MCP/Skills 추천, 보안 룰 주입, QA 검증까지 7단계 자동 완성
+>
+> **Prompt & Context Engineering을 넘어, Harness Engineering의 시대로.**
+> 본 프로젝트는 AI 에이전트가 안전하고 예측 가능한 경로로 기동할 수 있도록 시스템적 제어 환경(Harness)을 구축합니다.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://img.shields.io/npm/v/harness-builder)](https://www.npmjs.com/package/harness-builder)
@@ -179,13 +182,15 @@ MCP 재검증               → 00-team-architect (Phase 5)
 
 ---
 
-## 🏛️ 하네스 엔지니어링 원칙
+## 🏛️ 하네스 엔지니어링 3대 원칙
 
-이 시스템은 3가지 핵심 원칙을 따릅니다:
+이 시스템은 야생마 같은 AI의 능력을 길들여 안전한 경로로 유도하는 **'AI 제어 공학'**을 따릅니다.
 
-1. **HITL (Human-in-the-Loop)**: 모든 Phase 완료 후 사용자 승인 필수
-2. **네거티브 제약**: 각 에이전트는 자신의 역할 외 영역을 명시적으로 금지
-3. **Web Grounding**: 사전 학습 지식이 아닌 실시간 웹 검색으로 최신 정보 참조
+1. **시스템적 외골격 (Systemic Scaffolding)**: 2계층 팀 구조와 **Web Grounding**(실시간 검색)을 통해 AI가 최신 정보 위에서 단단하게 기동할 수 있는 뼈대를 제공합니다.
+2. **통제된 자율성 (Managed Autonomy)**: **네거티브 제약**(할 수 없는 일 명시)을 통해 AI가 정해진 궤도를 벗어나지 않도록 정교하게 설계된 자유를 부여합니다.
+3. **신뢰의 고리 (Feedback Loops)**: **HITL**(인간 승인)과 **QA Gate**(자동 검증)를 결합하여, 산출물의 무결성을 인간과 시스템이 함께 보장하는 이중 피드백 루프를 형성합니다.
+
+> 상세한 설계 철학은 [WHY.md](./docs/WHY.md)에서 확인하세요.
 
 ---
 
